@@ -1,4 +1,4 @@
-# angular-starter
+# angular-starter-ssr
 - Date : 26/11/2018 14:34
 - Author : chendra
 
