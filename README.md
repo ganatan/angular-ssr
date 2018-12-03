@@ -1,5 +1,5 @@
 # angular-starter-ssr
-- Date : 03/12/2018 14:31
+- Date : 03/12/2018 16:47
 - Author : chendra
 
 # Prerequisites
@@ -31,7 +31,7 @@
 # SSR Compilation 
 - npm run build:ssr
 - npm run serve:ssr
-- http://localhost:4001/
+- http://localhost:4000/
 
 # Tutorials
 - https://www.ganatan.com/docs
