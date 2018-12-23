@@ -1,16 +1,17 @@
 # angular-starter-ssr
-- Date : 07/12/2018 11:03
-- Author : chendra
+- Date : 23/12/2018 09:14
+- Author : danny ganatan
 
 # Prerequisites
-- Angular version 7.1.1
-- Angular-cli version 7.1.0
+- Angular version 7.1.4
+- Angular-cli version 7.1.4
+- Angular universal version 7.0.2
 - Visual studio code version 1.29.1
 - Typescript version 3.1.6
 - node.js version 10.14.1 LTS (Long Term Support)
 - npm (node package manager) version 6.4.1
 - Jquery version 3.3.1
-- Bootstrap version 4.1.3
+- Bootstrap version 4.2.1
 - Fontawesome version 4.7.0
 
 # Installation
@@ -37,4 +38,5 @@
 - http://localhost:4000/
 
 # Tutorials
+- https://www.ganatan.com/tutorials/server-side-rendering-avec-angular-universal
 - https://www.ganatan.com/docs
