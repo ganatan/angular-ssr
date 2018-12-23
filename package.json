@@ -33,7 +33,7 @@
     "rxjs": "6.3.3",
     "ts-loader": "5.3.2",
     "tslib": "1.9.3",
-    "webpack-cli": "^3.1.2",
+    "webpack-cli": "3.1.2",
     "zone.js": "0.8.26"
   },
   "devDependencies": {
