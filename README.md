@@ -1,11 +1,11 @@
 # angular-starter-ssr
-- Date : 14/02/2019 10:07
+- Date : 13/02/2019 10:10
 - Author : danny ganatan
 
 # Prerequisites
-- Angular version 7.2.4
+- Angular version 7.2.5
 - Angular-cli version 7.3.1
-- Visual studio code version 1.30.2
+- Visual studio code version 1.31.1
 - Typescript version 3.2.4
 - node.js version 10.15.1 LTS (Long Term Support)
 - npm (node package manager) version 6.5.0
@@ -37,7 +37,7 @@
 - http://localhost:4000/
 
 # Tutorials
-
 - https://www.ganatan.com/tutorials/server-side-rendering-avec-angular-universal
 
 - https://www.ganatan.com/docs
+
