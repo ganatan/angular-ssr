@@ -59,7 +59,7 @@ What you need to run this app:
 
 ### Production without Server Side Rendering (Ahead-of-Time)
 * `npm run build`
-* `http-server -p 8080 -c-1 dist/angular-starter`
+* `http-server -p 8080 -c-1 dist/browser`
 *  in your browser [http://localhost:8080](http://localhost:8080) 
 
 # Production with Server Side Rendering
