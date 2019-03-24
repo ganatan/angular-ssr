@@ -57,18 +57,22 @@ What you need to run this app:
 * `npm run start`
 *  in your browser [http://localhost:4200](http://localhost:4200) 
 
-
-### Compilation 
+### Production without Server Side Rendering (Ahead-of-Time)
 * `npm run build`
 * `http-server -p 8080 -c-1 dist/angular-starter`
 *  in your browser [http://localhost:8080](http://localhost:8080) 
+
+# Production with Server Side Rendering
+* `npm run build:ssr`
+* `npm run serve:ssr`
+*  in your browser [http://localhost:4000](http://localhost:4000) 
 
 ### Tests
 * `npm run lint`
 * `npm run test`
 * `npm run e2e`
 
-### author
+### Author
 * Updated : 23/03/2019
 * Author  : danny ganatan
 * Website : https://www.ganatan.com/guide
