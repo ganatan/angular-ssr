@@ -22,7 +22,7 @@
 git clone https://github.com/ganatan/angular-starter-ssr
 
 # change directory
-cd angular-starter
+cd angular-starter-ssr
 
 # install the repo with npm
 npm install
