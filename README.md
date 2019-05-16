@@ -73,10 +73,9 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 13/04/2019
+* Updated : 16/05/2019
 * Author  : danny ganatan
-* Website : https://www.ganatan.com/angular
 
 ### Tutorials
-* https://www.ganatan.com/tutorials/server-side-rendering-avec-angular
-
+* Guide    : https://www.ganatan.com/angular
+* Tutorial : https://www.ganatan.com/tutorials/server-side-rendering-avec-angular
