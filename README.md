@@ -1,34 +1,30 @@
-# Angular 8 Starter - Bootstrap
+# Angular 8 Example SSR
+
+> An Angular starter kit featuring [Angular 8.2.3](https://angular.io), [Angular CLI 8.3.0](https://cli.angular.io/)
+
+> it's part of a repo series designed to create a Progressive Web App with Angular
+
+* [Step 1 : Starter](https://github.com/ganatan/angular-starter)
+* [Step 2 : Routing](https://github.com/ganatan/angular-starter-routing)
+* [Step 3 : Lazy-loading](https://github.com/ganatan/angular-starter-lazy)
+* [Step 4 : Bootstrap](https://github.com/ganatan/angular-starter-bootstrap)
+* [Step 5 : Server Side Rendering](https://github.com/ganatan/angular-starter-ssr)
+* [Step 6 : HTTP Client](https://github.com/ganatan/angular-starter-httpclient)
+* [Step 7 : Transfer State](https://github.com/ganatan/angular-starter-transferstate)
+* [Step 8 : Progressive Web App](https://github.com/ganatan/angular8-example-pwa)
+
+# PWA Live Demo
+[https://angular.ganatan.com](https://angular.ganatan.com)
 
 
-> An Angular starter kit featuring [Angular 8.2.3](https://angular.io), [Angular CLI 8.2.2](https://cli.angular.io/)
-
-> it's part of a repo series designed to create a Progressive WebApp with Angular
-
-> [Starter](https://github.com/ganatan/angular-starter),
-[Routing](https://github.com/ganatan/angular-starter-routing),
-[Lazy-loading](https://github.com/ganatan/angular-starter-lazy),
-[Bootstrap](https://github.com/ganatan/angular-starter-bootstrap),
-[Server Side Rendering](https://github.com/ganatan/angular-starter-ssr),
-[HTTP Client](https://github.com/ganatan/angular-starter-httpclient),
-[Transfer State](https://github.com/ganatan/angular-starter-transferstate),
-[Progressive WebApp](https://github.com/ganatan/angular-starter-pwa),
-[Optimize Application](https://github.com/ganatan/angular-webapp),
-[Final Application](https://github.com/ganatan/wosiris)
-
-# Live Demo
-
-[https://www.wosiris.com](https://www.wosiris.com)
-
-
-### Quick start
+## Quick start
 
 ```bash
 # clone the repo
-git clone https://github.com/ganatan/angular-starter-bootstrap
+git clone https://github.com/ganatan/angular-example-ssr
 
 # change directory
-cd angular-starter-bootstrap
+cd angular-example-ssr
 
 # install the repo with npm
 npm install
@@ -39,21 +35,16 @@ npm start
 ```
 in your browser go to [http://localhost:4200](http://localhost:4200) 
 
-
-## Getting Started
-
 ### Prerequisites
 What you need to run this app:
 * Angular version 8.2.3
-* Angular CLI version 8.2.2
-* Visual studio code version 1.37.1
+* Angular CLI version 8.3.0
 * Typescript version 3.4.5
 * node.js version 10.16.3 LTS (Long Term Support)
 * npm (node package manager) version 6.9.0
 
-* Jquery version 3.4.1
-* Bootstrap version 4.3.1
-* Fontawesome version 5.10.1
+## Getting Started
+
 
 ### Installation
 * `npm install` (installing dependencies)
@@ -61,12 +52,12 @@ What you need to run this app:
 
 ### Developpement
 * `npm run start`
-*  in your browser [http://localhost:4200](http://localhost:4200) 
+* in your browser [http://localhost:4200](http://localhost:4200) 
 
 ### Production 
 * `npm run build`
 * `http-server -p 8080 -c-1 dist/angular-starter`
-*  in your browser [http://localhost:8080](http://localhost:8080) 
+* in your browser [http://localhost:8080](http://localhost:8080) 
 
 ### Tests
 * `npm run lint`
@@ -74,7 +65,7 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 22/08/2019
+* Updated : 26/08/2019
 * Author  : danny ganatan
 
 ### Documentation
