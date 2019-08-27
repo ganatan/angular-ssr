@@ -56,8 +56,6 @@ What you need to run this app:
 
 ### Production 
 * `npm run build`
-* `http-server -p 8080 -c-1 dist/angular-starter`
-* in your browser [http://localhost:8080](http://localhost:8080) 
 
 ### Tests
 * `npm run lint`
@@ -65,13 +63,13 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 26/08/2019
+* Updated : 27/08/2019
 * Author  : danny ganatan
 
 ### Documentation
 
 guidelines in English
--  Tutorial - https://www.ganatan.com/tutorials/server-side-rendering-with-angular
+-  Installation - https://www.ganatan.com/tutorials/server-side-rendering-with-angular
 -  Tutorials Step by Step - https://www.ganatan.com/tutorials/en
 
 guidelines in French
