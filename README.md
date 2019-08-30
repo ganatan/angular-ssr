@@ -76,10 +76,10 @@ What you need to run this app:
 ### Documentation
 
 guidelines in English
--  Installation - https://www.ganatan.com/tutorials/server-side-rendering-with-angular
+-  Installation - https://www.ganatan.com/tutorials/server-side-rendering-with-angular-universal
 -  Tutorials Step by Step - https://www.ganatan.com/tutorials/en
 
 guidelines in French
-- Installation - https://www.ganatan.com/tutorials/server-side-rendering-avec-angular
+- Installation - https://www.ganatan.com/tutorials/server-side-rendering-avec-angular-universal
 - Tutoriels Etapes par étapes - https://www.ganatan.com/tutorials
 - Cours - https://www.ganatan.com/courses
