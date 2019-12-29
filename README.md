@@ -1,22 +1,23 @@
 # Angular 8 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.19](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.21](https://cli.angular.io/)
 
-> it's part of a repo series designed to create a Progressive Web App with Angular
+> it's part of a repo series designed to create a Web Application with Angular
 
 * [Step 1 : Example Starter](https://github.com/ganatan/angular-example-starter)
 * [Step 2 : Example Routing](https://github.com/ganatan/angular-example-routing)
 * [Step 3 : Example Lazy-loading](https://github.com/ganatan/angular-example-lazy-loading)
 * [Step 4 : Example Bootstrap](https://github.com/ganatan/angular-example-bootstrap)
-* [Step 5 : Example Server Side Rendering](https://github.com/ganatan/angular-example-ssr)
-* [Step 6 : Example HTTP Client](https://github.com/ganatan/angular-example-httpclient)
-* [Step 7 : Example Transfer State](https://github.com/ganatan/angular-example-transferstate)
-* [Step 8 : Example PWA](https://github.com/ganatan/angular-example-pwa)
-* [Step 9 : Example SEO](https://github.com/ganatan/angular-example-seo)
+* [Step 5 : Example Features](https://github.com/ganatan/angular-example-features)
+* [Step 6 : Example Server Side Rendering](https://github.com/ganatan/angular-example-ssr)
+* [Step 7 : Example HTTP Client](https://github.com/ganatan/angular-example-httpclient)
+* [Step 8 : Example Transfer State](https://github.com/ganatan/angular-example-transferstate)
+* [Step 9 : Example PWA](https://github.com/ganatan/angular-example-pwa)
+* [Step 10 : Example SEO](https://github.com/ganatan/angular-example-seo)
 
-* [Step 10 : Angular Progressive Web App](https://github.com/ganatan/angular8-pwa)
+* [Step 11 : Angular 8 Application](https://github.com/ganatan/angular8-app)
 
-# PWA Live Demo
+# Web Application Live Demo
 [https://angular.ganatan.com](https://angular.ganatan.com)
 
 
@@ -41,10 +42,10 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 ### Prerequisites
 What you need to run this app:
 * Angular version 8.2.14
-* Angular CLI version 8.3.19
+* Angular CLI version 8.3.21
 * Typescript version 3.5.3
-* Node.js version 12.13.0 LTS (Long Term Support)
-* npm (node package manager) version 6.12.0
+* Node.js version 12.14.0 LTS (Long Term Support)
+* npm (node package manager) version 6.13.4
 
 * Jquery version 3.4.1
 * Bootstrap version 4.3.1
@@ -70,8 +71,8 @@ What you need to run this app:
 * `npm run e2e`
 
 ### Author
-* Updated : 15/11/2019
-* Author  : danny ganatan
+* Updated : 29/12/19
+* Author  : danny
 
 ### Documentation
 

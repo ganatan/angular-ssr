@@ -4,6 +4,7 @@ export const environment = {
   {
     name: 'angular-starter',
     angular: 'Angular 8.2.14',
-    bootstrap: 'Bootstrap 4.3.1',
+    bootstrap: 'Bootstrap 4.4.1',
+    fontawesome: 'Font Awesome 5.12.0',
   }
 };
