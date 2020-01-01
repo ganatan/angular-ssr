@@ -58,20 +58,29 @@ What you need to run this app:
 * `npm install` (installing dependencies)
 * `npm outdated` (verifying dependencies)
 
-### Developpement
+### Development
 * `npm run start`
 * in your browser [http://localhost:4200](http://localhost:4200) 
 
-### Production 
-* `npm run build`
+### Compilation
+* `npm run build`       ( without SSR)
+* `npm run build:ssr`   ( with SSR)
+
+### Production
+* `npm run serve:ssr`
+* in your browser [http://localhost:4000](http://localhost:4000) 
 
 ### Tests
 * `npm run lint`
 * `npm run test`
 * `npm run e2e`
 
+### Prototype Bootstrap
+* `change directory` cd ui
+* launch html pages in your browser
+
 ### Author
-* Updated : 29/12/19
+* Updated : 01/01/20
 * Author  : danny
 
 ### Documentation
