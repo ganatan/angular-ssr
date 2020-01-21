@@ -1,6 +1,6 @@
 # Angular 8 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.22](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 8.2.14](https://angular.io), [Angular CLI 8.3.23](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -42,14 +42,14 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 ### Prerequisites
 What you need to run this app:
 * Angular version 8.2.14
-* Angular CLI version 8.3.22
+* Angular CLI version 8.3.23
 * Typescript version 3.5.3
-* Node.js version 12.14.0 LTS (Long Term Support)
-* npm (node package manager) version 6.13.4
+* Node.js version 12.14.1 LTS (Long Term Support)
+* npm (node package manager) version 6.13.6
 
 * Jquery version 3.4.1
-* Bootstrap version 4.3.1
-* Fontawesome version 5.11.2
+* Bootstrap version 4.4.1
+* Fontawesome version 5.12.0
 
 ## Getting Started
 
@@ -80,7 +80,7 @@ What you need to run this app:
 * launch html pages in your browser
 
 ### Author
-* Updated : 11/01/2020
+* Updated : 21/01/2020
 * Author  : danny
 
 ### Documentation
