@@ -19,6 +19,12 @@ export class HomeComponent implements OnInit {
     this.features =
       [
         {
+          name: 'Template Driven Forms',
+          description: 'Build an Angular form with a component and template',
+          icon: 'far fa-file-alt',
+          link: 'template-driven-forms'
+        },
+        {
           name: 'Chart.js',
           description: 'Simple yet flexible JavaScript charting for designers & developers',
           icon: 'fa-share-alt-square',
