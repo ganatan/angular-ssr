@@ -1,6 +1,6 @@
 # Angular 9 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 9.0.5](https://angular.io), [Angular CLI 9.0.5](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 9.0.7](https://angular.io), [Angular CLI 9.0.7](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -41,8 +41,8 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What you need to run this app:
-* Angular version 9.0.5
-* Angular CLI version 9.0.5
+* Angular version 9.0.7
+* Angular CLI version 9.0.7
 * Typescript version 3.7.5
 * Node.js version 12.16.1 LTS (Long Term Support)
 * npm (node package manager) version 6.14.2
@@ -80,7 +80,7 @@ What you need to run this app:
 * launch html pages in your browser
 
 ### Author
-* Updated : 07/03/2020
+* Updated : 20/03/2020
 * Author  : danny
 
 ### Documentation
