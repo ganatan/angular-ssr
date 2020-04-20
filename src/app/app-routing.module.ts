@@ -8,23 +8,28 @@ const routes: Routes = [
   { path: '', component: HomeComponent, },
   {
     path: 'template-driven-forms',
-    loadChildren: () => import('./modules/application/template-driven-forms/template-driven-forms.module')
-      .then(mod => mod.TemplateDrivenFormsModule)
-  },
-  {
-    path: 'chartjs',
-    loadChildren: () => import('./modules/application/chartjs/chartjs.module')
-      .then(mod => mod.ChartjsModule)
-  },
-  {
-    path: 'services',
-    loadChildren: () => import('./modules/application/services/services.module')
-      .then(mod => mod.ServicesModule)
+    loadChildren: () => import('./modules/application/example-template-driven-forms/example-template-driven-forms.module')
+      .then(mod => mod.ExampleTemplateDrivenFormsModule)
   },
   {
     path: 'components',
-    loadChildren: () => import('./modules/application/components/components.module')
-      .then(mod => mod.ComponentsModule)
+    loadChildren: () => import('./modules/application/example-components/example-components.module')
+      .then(mod => mod.ExampleComponentsModule)
+  },
+  {
+    path: 'services',
+    loadChildren: () => import('./modules/application/example-services/example-services.module')
+      .then(mod => mod.ExampleServicesModule)
+  },
+  {
+    path: 'reactive-form',
+    loadChildren: () => import('./modules/application/example-reactive-form/example-reactive-form.module')
+      .then(mod => mod.ExampleReactiveFormModule)
+  },
+  {
+    path: 'bootstrap-components',
+    loadChildren: () => import('./modules/application/example-bootstrap-components/example-bootstrap-components.module')
+      .then(mod => mod.ExampleBootstrapComponentsModule)
   },
   {
     path: 'about',
@@ -47,7 +52,7 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
     initialNavigation: 'enabled'
-  })],
+})],
   exports: [RouterModule],
   declarations: []
 })
