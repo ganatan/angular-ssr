@@ -77,6 +77,14 @@ What do you need to run this app:
 * `npm run test`
 * `npm run e2e`
 
+### Compilation
+* `npm run build`       ( without SSR)
+* `npm run build:ssr`   ( with SSR)
+
+### Production
+* `npm run serve:ssr`
+* in your browser [http://localhost:4000](http://localhost:4000) 
+
 ### Prototype Bootstrap
 * `change directory` cd ui
 * launch html pages in your browser
