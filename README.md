@@ -8,9 +8,7 @@
 * [Step 2 : Example Routing](https://github.com/ganatan/angular-example-routing)
 * [Step 3 : Example Lazy-loading](https://github.com/ganatan/angular-example-lazy-loading)
 * [Step 4 : Example Bootstrap](https://github.com/ganatan/angular-example-bootstrap)
-
 * [Step 5 : Example Modules](https://github.com/ganatan/angular-example-modules)
-
 * [Step 6 : Example Server Side Rendering](https://github.com/ganatan/angular-example-ssr)
 * [Step 7 : Example HTTP Client](https://github.com/ganatan/angular-example-httpclient)
 * [Step 8 : Example Transfer State](https://github.com/ganatan/angular-example-transferstate)
@@ -90,7 +88,7 @@ What do you need to run this app:
 * launch html pages in your browser
 
 ### Author
-* Updated : 20/04/2020
+* Updated : 21/04/2020
 * Author  : danny
 
 ### Documentation
