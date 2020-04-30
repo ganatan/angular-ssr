@@ -43,7 +43,7 @@
     "@nguniversal/express-engine": "9.1.0",
     "bootstrap": "4.4.1",
     "express": "4.17.1",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "rxjs": "6.5.5",
     "tslib": "1.11.1",
     "zone.js": "0.10.3"
