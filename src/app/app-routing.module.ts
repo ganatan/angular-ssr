@@ -8,23 +8,23 @@ const routes: Routes = [
   { path: '', component: HomeComponent, },
   {
     path: 'template-driven-forms',
-    loadChildren: () => import('./modules/application/example-template-driven-forms/example-template-driven-forms.module')
-      .then(mod => mod.ExampleTemplateDrivenFormsModule)
+    loadChildren: () => import('./modules/application/example-template-driven-forms/tutorial.module')
+      .then(mod => mod.TutorialModule)
   },
   {
     path: 'components',
-    loadChildren: () => import('./modules/application/example-components/example-components.module')
-      .then(mod => mod.ExampleComponentsModule)
+    loadChildren: () => import('./modules/application/example-components/tutorial.module')
+      .then(mod => mod.TutorialModule)
   },
   {
     path: 'services',
-    loadChildren: () => import('./modules/application/example-services/example-services.module')
-      .then(mod => mod.ExampleServicesModule)
+    loadChildren: () => import('./modules/application/example-services/tutorial.module')
+      .then(mod => mod.TutorialModule)
   },
   {
     path: 'reactive-form',
-    loadChildren: () => import('./modules/application/example-reactive-form/example-reactive-form.module')
-      .then(mod => mod.ExampleReactiveFormModule)
+    loadChildren: () => import('./modules/application/example-reactive-form/tutorial.module')
+      .then(mod => mod.TutorialModule)
   },
   {
     path: 'bootstrap-prototype',
