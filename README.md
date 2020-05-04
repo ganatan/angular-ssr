@@ -44,7 +44,7 @@ What do you need to run this app:
 * Angular version 9.1.4
 * Angular CLI version 9.1.4
 * Typescript version 3.8.3
-* Node.js version 12.16.2 LTS (Long Term Support)
+* Node.js version 12.16.3 LTS (Long Term Support)
 * npm (node package manager) version 6.14.4
 
 * Jquery version 3.4.1
@@ -88,7 +88,7 @@ What do you need to run this app:
 * launch html pages in your browser
 
 ### Author
-* Updated : 27/04/2020
+* Updated : 04/05/2020
 * Author  : danny
 
 ### Documentation
