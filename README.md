@@ -1,6 +1,6 @@
-# Angular 9 Example Server Side Rendering
+# Angular 10 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 9.1.11](https://angular.io), [Angular CLI 9.1.8](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 10.0.1](https://angular.io), [Angular CLI 10.0.0](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -15,7 +15,7 @@
 * [Step 9 : Example PWA](https://github.com/ganatan/angular-example-pwa)
 * [Step 10 : Example SEO](https://github.com/ganatan/angular-example-seo)
 
-* [Step 11 : Angular 9 Application](https://github.com/ganatan/angular9-app)
+* [Step 11 : Angular 10 Application](https://github.com/ganatan/angular10-app)
 
 # Web Application Live Demo
 [https://angular.ganatan.com](https://angular.ganatan.com)
@@ -41,12 +41,11 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Prerequisites
 What do you need to run this app:
-* Angular version 9.1.11
-* Angular CLI version 9.1.8
-* Typescript version 3.8.3
+* Angular version 10.0.1
+* Angular CLI version 10.0.0
 * Jquery version 3.5.1
 * Bootstrap version 4.5.0
-* Fontawesome version 5.13.0
+* Fontawesome version 5.13.1
 
 ## Getting Started
 
@@ -85,7 +84,7 @@ What do you need to run this app:
 * launch html pages in your browser
 
 ### Author
-* Updated : 14/06/2020
+* Updated : 27/06/2020
 * Author  : danny
 
 ### Documentation

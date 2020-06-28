@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
     this.features =
       [
         {
-          name: 'Bootstrap Prototype',
+          name: 'Bootstrap prototype',
           description: 'Bootstrap Prototype Description',
           icon: 'fab fa-bootstrap',
           link: 'bootstrap-prototype'
