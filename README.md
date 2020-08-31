@@ -93,7 +93,7 @@ sudo apt-get install google-chrome-stable --yes
 * launch html pages in your browser
 
 ### Author
-* Updated : 27/08/2020
+* Updated : 31/08/2020
 * Author  : danny
 
 ### Documentation
