@@ -10,10 +10,6 @@ body {
   box-shadow: 0 8px 6px -6px #999;
 }
 
-.app main, .app footer {
-  padding-left: 1rem;
-}
-
 .footer {
   background: #3F729B;
   padding: 2em;

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ExampleBootstrapPrototypeComponent } from './example-bootstrap-prototype.component';
 import { FormBuilder } from '@angular/forms';
@@ -8,7 +8,7 @@ describe('ExampleBootstrapComponentsComponent', () => {
   let component: ExampleBootstrapPrototypeComponent;
   let fixture: ComponentFixture<ExampleBootstrapPrototypeComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(async () => {
     TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
@@ -21,7 +21,7 @@ describe('ExampleBootstrapComponentsComponent', () => {
       ]
     })
       .compileComponents();
-  }));
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ExampleBootstrapPrototypeComponent);
