@@ -1,6 +1,6 @@
 # Angular 10 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 10.2.0](https://angular.io), [Angular CLI 10.2.0](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 10.2.2](https://angular.io), [Angular CLI 10.2.0](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
@@ -58,8 +58,6 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run serve:ssr`
 * in your browser [http://localhost:4000](http://localhost:4000) 
 
-### Use Chrome version 85 min !!!!
-
 ## Tests
 * `npm run lint`
 * `npm run test`
@@ -77,7 +75,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `change directory` cd ui
 * launch html pages in your browser
 
-### Prototype Bootstrap 5.0.0-alpha1
+### Prototype Bootstrap 5.0.0-alpha2
 * `change directory` cd ui-v5
 * launch html pages in your browser
 
