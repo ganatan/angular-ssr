@@ -13,7 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
     NotFoundComponent,
   ],
   imports: [
-    BrowserModule.withServerTransition({ appId: 'serverApp' }),
+    BrowserModule.withServerTransition({ appId: 'angular-starter' }),
     AppRoutingModule,
   ],
   providers: [],
