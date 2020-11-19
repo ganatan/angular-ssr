@@ -52,7 +52,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run serve:ssr`
 * in your browser [http://localhost:4000](http://localhost:4000) 
 
-## Tests
+## Tests (Use Chrome Version 87 minimum)
 * `npm run lint`
 * `npm run test`
 * `npm run e2e`
