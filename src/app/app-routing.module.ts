@@ -25,8 +25,7 @@ const routes: Routes = [
     path: 'reactive-form',
     loadChildren: () => import('./modules/application/example-reactive-form/tutorial.module')
       .then(mod => mod.TutorialModule)
-  },
-  {
+  },  {
     path: 'bootstrap-prototype',
     loadChildren: () => import('./modules/application/example-bootstrap-prototype/example-bootstrap-prototype.module')
       .then(mod => mod.ExampleBootstrapPrototypeModule)
