@@ -25,11 +25,12 @@ const routes: Routes = [
     path: 'reactive-form',
     loadChildren: () => import('./modules/application/example-reactive-form/tutorial.module')
       .then(mod => mod.TutorialModule)
-  },  {
-    path: 'bootstrap-prototype',
-    loadChildren: () => import('./modules/application/example-bootstrap-prototype/example-bootstrap-prototype.module')
-      .then(mod => mod.ExampleBootstrapPrototypeModule)
-  },
+  },    
+  {
+    path: 'bootstrap',
+    loadChildren: () => import('./modules/application/example-bootstrap/tutorial.module')
+      .then(mod => mod.TutorialModule)
+  },  
   {
     path: 'contact',
     loadChildren: () => import('./modules/general/contact/contact.module')
