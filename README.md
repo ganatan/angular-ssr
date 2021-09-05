@@ -1,6 +1,6 @@
 # Angular 12 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 12.2.2](https://angular.io), [Angular CLI 12.2.2](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 12.2.4](https://angular.io), [Angular CLI 12.2.4](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
