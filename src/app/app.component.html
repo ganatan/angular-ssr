@@ -1,59 +1,49 @@
-<header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #212121;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <span class="me-1">ganatan</span>
-        <img src="assets/params/images/logo/ganatan.png" width="20" height="20" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleDefault"
-        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-white" routerLink="/">
-              <i class="fas fa-home mr-1"></i><span>home</span>
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-white" routerLink="/about">
-              <i class="far fa-question-circle mr-1"></i>About
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-white" routerLink="/contact">
-              <i class="fas fa-envelope mr-1"></i>Contact
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-white" routerLink="/signin">
-              <i class="fas fa-user mr-1"></i>Sign in
-            </a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link text-white" href="https://github.com/ganatan">
-              <i class="fab fa-github mr-1"></i>Github
-            </a>
-          </li>
-        </ul>
-      </div>
+<header class="navbar navbar-expand-md navbar-dark fixed-top nga-navbar">
+  <nav class="container" aria-label="Main navigation">
+    <a href="" class="navbar-brand" alt="Accueil" aria-label="Ganatan">
+      <img src="./assets/params/images/logo/ganatan-logo.png" srcset="./assets/params/images/logo/ganatan-logo.png,
+      ./assets/params/images/logo/ganatan-logo@2x.png 2x" width="25" height="25" alt="Logo Ganatan">
+      <span class="nga-logo mx-1">ganatan</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/">
+            <i class="fas fa-home me-1"></i>Home</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/about">
+            <i class="far fa-question-circle me-1"></i>About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/contact">
+            <i class="fas fa-envelope me-1"></i>Contact</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button type="button" class="btn btn-sm nga-btn-navbar me-2" routerLink="/signup"><i
+            class="fas fa-user-plus me-2"></i>Sign up</button>
+        <button type="button" class="btn btn-sm btn-outline-light me-2" routerLink="/login"><i
+            class="fas fa-sign-in-alt me-2"></i>Login</button>
+      </form>
     </div>
   </nav>
 </header>
 
 <main>
-  <div class="container-fluid">
-    <router-outlet></router-outlet>
-  </div>
+  <router-outlet></router-outlet>
 </main>
 
-<div class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <p class="text-center text-white">&copy; 2021 - www.ganatan.com</p>
-      </div>
+<footer class="nga-footer">
+  <div class="py-3 text-center" style="background-color: black;">
+    <div class="container">
+      2021 :<a href="https://www.ganatan.com/"> www.ganatan.com</a>
     </div>
   </div>
-</div>
+</footer>
