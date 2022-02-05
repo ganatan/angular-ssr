@@ -1,6 +1,6 @@
 # Angular 13 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 13.1.3](https://angular.io), [Angular CLI 13.1.4](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 13.2.1](https://angular.io), [Angular CLI 13.2.2](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Web Application with Angular
 
