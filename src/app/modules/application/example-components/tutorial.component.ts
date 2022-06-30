@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SeoService } from '../../../services/seo/seo.service';
 
 import { Channel } from './channel/channel';
 
@@ -12,7 +13,13 @@ export class TutorialComponent implements OnInit {
   channels: Channel[];
   channelSelected: Channel;
 
-  constructor() {
+  constructor(private seoService: SeoService) {
+
+    const content = 'Example Components content with meta';
+    this.seoService.setMetaDescription(content);
+
+    this.seoService.setMetaTitle('Angular-ssr Title : example-components Page');
+
     this.channelSelected = new Channel();
     this.channels =
       [
@@ -21,7 +28,7 @@ export class TutorialComponent implements OnInit {
         { title: 'Discovery Channel', name: 'discovery-channel', releaseDate: '17/06/1985' },
         { title: 'HBO', name: 'hbo', releaseDate: '08/11/1972' },
         { title: 'History', name: 'history', releaseDate: '01/01/1995' },
-        { title: 'Hulu', name: 'hulu', releaseDate: '29/108/2007' },
+        { title: 'Hulu', name: 'hulu', releaseDate: '29/03/2007' },
         { title: 'MTV', name: 'mtv', releaseDate: '01/08/1981' },
         { title: 'NBC', name: 'nbc', releaseDate: '01/07/1941' },
         { title: 'Netflix', name: 'netflix', releaseDate: '29/08/1997' },

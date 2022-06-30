@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { SeoService } from '../../../services/seo/seo.service';
 
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
-export class SignupComponent implements OnInit {
+export class SignupComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private seoService: SeoService) {
+    
+    const content = 'Signup content with meta';
+    this.seoService.setMetaDescription(content);
+    
   }
 
 }

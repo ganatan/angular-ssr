@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://angular-ssr.ganatan.net/sitemap.xml

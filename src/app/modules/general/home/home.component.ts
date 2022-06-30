@@ -1,23 +1,32 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { environment } from '../../../../environments/environment';
-import { Inject, PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
+import { SeoService } from '../../../services/seo/seo.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 
   name = environment.application.name;
-  angular = environment.application.angular;
+  version = environment.application.version;
   bootstrap = environment.application.bootstrap;
   fontawesome = environment.application.fontawesome;
 
-  features: any;
-  constructor(
-    @Inject(PLATFORM_ID) private platformId: object) {
+  features: Array<any>;
+
+  constructor(private seoService: SeoService) {
+
+    const content =
+      'This application was developed with ' + this.version + ' and ' + this.bootstrap +
+      ' It applies Routing, Lazy loading and Progressive Web App (PWA)';
+
+    const title = 'angular-ssr Title : Home Page';
+
+    this.seoService.setMetaDescription(content);
+    this.seoService.setMetaTitle(title);
+
     this.features =
       [
         {
@@ -51,22 +60,6 @@ export class HomeComponent implements OnInit {
           link: 'forms'
         },
       ];
-
-  }
-
-  ngOnInit(): void {
-
-    if (isPlatformBrowser(this.platformId)) {
-      let navMain = document.getElementById('navbarCollapse');
-      if (navMain) {
-        navMain.onclick = function () {
-          if (navMain) {
-            navMain.classList.remove("show");
-          }
-        }
-      }
-    }
-
   }
 
 }

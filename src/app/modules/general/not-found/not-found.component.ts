@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { SeoService } from '../../../services/seo/seo.service';
 
 @Component({
   selector: 'app-not-found',
   templateUrl: './not-found.component.html',
   styleUrls: ['./not-found.component.css']
 })
-export class NotFoundComponent implements OnInit {
+export class NotFoundComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor(private seoService: SeoService) {
+    
+    const content = 'NotFound content with meta';
+    this.seoService.setMetaDescription(content);
+    
   }
 
 }

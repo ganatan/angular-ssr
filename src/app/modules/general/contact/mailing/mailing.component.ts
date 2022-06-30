@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-mailing',
   templateUrl: './mailing.component.html',
   styleUrls: ['./mailing.component.css']
 })
-export class MailingComponent implements OnInit {
+export class MailingComponent {
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }
