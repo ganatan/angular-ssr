@@ -6,5 +6,8 @@ export const environment = {
     version: 'Angular 14.0.4',
     bootstrap: 'Bootstrap 5.1.3',
     fontawesome: 'Font Awesome 6.1.1',
+  },
+  microfrontends: {
+    "mfe1": "http://localhost:4201/remoteEntry.js"
   }
 };

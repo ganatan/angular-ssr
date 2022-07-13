@@ -3,13 +3,10 @@ import 'zone.js/dist/zone-node';
 import {APP_BASE_HREF} from '@angular/common';
 import {ngExpressEngine} from '@nguniversal/express-engine';
 import * as express from 'express';
-import {existsSync, readFileSync} from 'fs';
+import {existsSync } from 'fs';
 import {join} from 'path';
 
 import {AppServerModule} from './src/main.server';
-import { DynamicMfConfigFile, parseManifestAndLoadRemoteEntries } from 'src/mf-helper';
-import { APP_INITIALIZER, InjectionToken } from '@angular/core';
-const MODULE_FEDERATION_MANIFEST = new InjectionToken<DynamicMfConfigFile>('manifest for remote entries info')
 
 // The Express app is exported so that it can be used by serverless Functions.
 export function app(): express.Express {
@@ -17,23 +14,10 @@ export function app(): express.Express {
   const distFolder = join(process.cwd(), 'dist/angular-starter/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html')) ? 'index.original.html' : 'index';
 
-  const manifest = readFileSync(join(distFolder, "assets", "mf.manifest.json"), 'utf-8')
-  const config = JSON.parse(manifest)
   // parseManifestAndLoadRemoteEntries(config as DynamicMfConfigFile)
   // Our Universal express-engine (found @ https://github.com/angular/universal/tree/main/modules/express-engine)
   server.engine('html', ngExpressEngine({
     bootstrap: AppServerModule,
-    providers: [
-      {
-        provide: MODULE_FEDERATION_MANIFEST,
-        useValue: config
-      },
-      {
-        provide: APP_INITIALIZER,
-        useFactory: (config: DynamicMfConfigFile) => () => parseManifestAndLoadRemoteEntries(config),
-        deps: [MODULE_FEDERATION_MANIFEST]
-      }
-    ]
   }));
 
   server.set('view engine', 'html');

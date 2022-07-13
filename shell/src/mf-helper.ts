@@ -17,7 +17,9 @@ export type DynamicMfConfig = {
 
 export async function parseManifestAndLoadRemoteEntries(config: DynamicMfConfigFile, skipRemoteEntries = false): Promise<void> {
     const parsedConfig = parseConfig(config);
+    console.log('CALLED PARSE MANIFEST!')
     if (!skipRemoteEntries) {
+        console.log('CALLED LOAD REMOTE ENTRIES!')
         await loadRemoteEntries(parsedConfig)
     }
 }
