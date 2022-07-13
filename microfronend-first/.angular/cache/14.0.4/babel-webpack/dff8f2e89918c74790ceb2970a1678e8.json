@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { __decorate } from \"tslib\";\nimport { Component } from '@angular/core';\nlet AppComponent = class AppComponent {};\nAppComponent = __decorate([Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html'\n})], AppComponent);\nexport { AppComponent };","map":null,"metadata":{},"sourceType":"module"}

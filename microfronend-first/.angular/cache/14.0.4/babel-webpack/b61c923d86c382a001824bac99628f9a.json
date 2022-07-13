@@ -1,0 +1,1 @@
+{"ast":null,"code":"import('./bootstrap').catch(err => console.error(err));","map":null,"metadata":{},"sourceType":"script"}
