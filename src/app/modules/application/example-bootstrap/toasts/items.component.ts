@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-toasts',
@@ -7,10 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ToastsComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    @Inject(PLATFORM_ID) private platformId: object) {
+  }
 
   ngOnInit(): void {
-    this.loadScript('./assets/params/js/toasts.js');
+    if (isPlatformBrowser(this.platformId)) {
+      this.loadScript('./assets/params/js/toasts.js');
+    }
   }
 
   loadScript(name: string): void {
