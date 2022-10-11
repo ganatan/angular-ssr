@@ -3,8 +3,8 @@ export const environment = {
   application:
   {
     name: 'angular-ssr',
-    version: 'Angular 14.2.3',
-    bootstrap: 'Bootstrap 5.2.1',
+    version: 'Angular 14.2.5',
+    bootstrap: 'Bootstrap 5.2.2',
     fontawesome: 'Font Awesome 6.2.0',
   }
 };
