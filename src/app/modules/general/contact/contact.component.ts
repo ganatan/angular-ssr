@@ -10,8 +10,8 @@ export class ContactComponent {
 
   constructor(private seoService: SeoService) {
 
-    const content = 'angular-ssr - Description - Contact Page';
-    const title = 'angular-ssr - Title - Contact Page';
+    const content = 'angular-seo - Description - Contact Page';
+    const title = 'angular-seo - Title - Contact Page';
 
     this.seoService.setMetaDescription(content);
     this.seoService.setMetaTitle(title);

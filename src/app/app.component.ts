@@ -8,7 +8,8 @@ import { isPlatformBrowser } from '@angular/common';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'angular-ssr';
+
+  title = 'angular-bootstrap';
   footerUrl = 'https://www.ganatan.com/';
   footerLink = 'www.ganatan.com';
 
@@ -28,6 +29,6 @@ export class AppComponent implements OnInit {
         }
       }
     }
-  }
+  } 
 
 }

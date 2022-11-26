@@ -2,9 +2,9 @@ export const environment = {
   production: true,
   application:
   {
-    name: 'angular-ssr',
-    version: 'Angular 14.2.8',
-    bootstrap: 'Bootstrap 5.2.2',
-    fontawesome: 'Font Awesome 6.2.0',
+    name: 'angular-starter',
+    version: 'Angular 15.0.1',
+    bootstrap: 'Bootstrap 5.2.3',
+    fontawesome: 'Font Awesome 6.2.1',
   }
 };

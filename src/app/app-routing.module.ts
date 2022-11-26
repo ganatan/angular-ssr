@@ -22,7 +22,12 @@ const routes: Routes = [
     loadChildren: () => import('./modules/general/signup/signup.module')
       .then(mod => mod.SignupModule)
   },
-
+  
+  {
+    path: 'contact',
+    loadChildren: () => import('./modules/general/contact/contact.module')
+      .then(mod => mod.ContactModule)
+  },
   {
     path: 'bootstrap',
     loadChildren: () => import('./modules/application/example-bootstrap/tutorial.module')
@@ -44,11 +49,6 @@ const routes: Routes = [
       .then(mod => mod.TutorialModule)
   },
 
-  {
-    path: 'contact',
-    loadChildren: () => import('./modules/general/contact/contact.module')
-      .then(mod => mod.ContactModule)
-  },
   { path: '**', component: NotFoundComponent }
 ];
 
