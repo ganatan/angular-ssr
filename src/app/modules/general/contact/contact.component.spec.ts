@@ -7,16 +7,13 @@ describe('ContactComponent', () => {
   let component: ContactComponent;
   let fixture: ComponentFixture<ContactComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
+  beforeEach(() => {
+    TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
       ],
       declarations: [ContactComponent]
-    }).compileComponents();
-  });
-
-  beforeEach(() => {
+    });
     fixture = TestBed.createComponent(ContactComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

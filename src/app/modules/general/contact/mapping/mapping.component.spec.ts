@@ -6,14 +6,10 @@ describe('MappingComponent', () => {
   let component: MappingComponent;
   let fixture: ComponentFixture<MappingComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ MappingComponent ]
-    })
-    .compileComponents();
-  });
-
   beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [MappingComponent]
+    });
     fixture = TestBed.createComponent(MappingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

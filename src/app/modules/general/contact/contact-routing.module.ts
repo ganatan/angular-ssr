@@ -11,6 +11,7 @@ const routes: Routes = [
         loadChildren: () => import(`./mailing/mailing.module`)
           .then(mod => mod.MailingModule)
       },
+
       {
         path: 'mailing',
         loadChildren: () => import(`./mailing/mailing.module`)
@@ -26,6 +27,7 @@ const routes: Routes = [
         loadChildren: () => import(`./website/website.module`)
           .then(mod => mod.WebsiteModule)
       },
+
       {
         path: '**',
         loadChildren: () => import(`./mailing/mailing.module`)

@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Meta } from '@angular/platform-browser';
 import { environment } from '../../../../environments/environment';
-import { SeoService } from '../../../services/seo/seo.service';
 import { Feature } from './feature';
 
 @Component({
@@ -8,7 +8,10 @@ import { Feature } from './feature';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent {
+
+
+
+export class HomeComponent implements OnInit {
 
   name = environment.application.name;
   version = environment.application.version;
@@ -17,16 +20,7 @@ export class HomeComponent {
 
   features: Array<Feature>;
 
-  constructor(private seoService: SeoService) {
-
-    const content =
-      'This application was developed with ' + this.version + ' and ' + this.bootstrap +
-      ' It applies Routing, Lazy loading and Progressive Web App (PWA)';
-
-    const title = 'angular-seo Title : Home Page';
-
-    this.seoService.setMetaDescription(content);
-    this.seoService.setMetaTitle(title);
+  constructor(private meta: Meta) {
 
     this.features =
       [
@@ -61,6 +55,16 @@ export class HomeComponent {
           link: 'forms'
         },
       ];
+  }
+
+  ngOnInit(): void {
+
+    this.meta.updateTag(
+      {
+        name: 'description',
+        content: 'This application was developed with Angular version 16.0.0 and bootstrap 5.2.3' +
+          ' It applies Routing, Lazy loading, Server side rendering and Progressive Web App (PWA)'
+      });
   }
 
 }

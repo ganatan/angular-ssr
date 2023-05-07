@@ -6,7 +6,11 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 
 const routes: Routes = [
   { path: '', component: HomeComponent, },
-
+  {
+    path: 'contact',
+    loadChildren: () => import('./modules/general/contact/contact.module')
+      .then(mod => mod.ContactModule)
+  },
   {
     path: 'about',
     loadChildren: () => import('./modules/general/about/about.module')
@@ -21,12 +25,6 @@ const routes: Routes = [
     path: 'signup',
     loadChildren: () => import('./modules/general/signup/signup.module')
       .then(mod => mod.SignupModule)
-  },
-  
-  {
-    path: 'contact',
-    loadChildren: () => import('./modules/general/contact/contact.module')
-      .then(mod => mod.ContactModule)
   },
   {
     path: 'bootstrap',
@@ -48,6 +46,7 @@ const routes: Routes = [
     loadChildren: () => import('./modules/application/example-services/tutorial.module')
       .then(mod => mod.TutorialModule)
   },
+
 
   { path: '**', component: NotFoundComponent }
 ];

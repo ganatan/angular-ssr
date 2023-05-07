@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { SeoService } from '../../../services/seo/seo.service';
 
 import { Channel } from './channel/channel';
 
@@ -13,13 +12,7 @@ export class TutorialComponent implements OnInit {
   channels: Channel[];
   channelSelected: Channel;
 
-  constructor(private seoService: SeoService) {
-
-    const content = 'Example Components content with meta';
-    this.seoService.setMetaDescription(content);
-
-    this.seoService.setMetaTitle('Angular-seo Title : example-components Page');
-
+  constructor() {
     this.channelSelected = new Channel();
     this.channels =
       [
