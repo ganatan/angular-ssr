@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { Meta } from '@angular/platform-browser';
+import { Component } from '@angular/core';
 import { environment } from '../../../../environments/environment';
 import { Feature } from './feature';
 
@@ -8,10 +7,7 @@ import { Feature } from './feature';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-
-
-
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 
   name = environment.application.name;
   version = environment.application.version;
@@ -20,7 +16,7 @@ export class HomeComponent implements OnInit {
 
   features: Array<Feature>;
 
-  constructor(private meta: Meta) {
+  constructor() {
 
     this.features =
       [
@@ -57,14 +53,5 @@ export class HomeComponent implements OnInit {
       ];
   }
 
-  ngOnInit(): void {
-
-    this.meta.updateTag(
-      {
-        name: 'description',
-        content: 'This application was developed with Angular version 16.0.0 and bootstrap 5.2.3' +
-          ' It applies Routing, Lazy loading, Server side rendering and Progressive Web App (PWA)'
-      });
-  }
 
 }

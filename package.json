@@ -1,5 +1,5 @@
 {
-  "name": "angular-modules",
+  "name": "angular-ssr",
   "version": "16.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "coverage": "ng test --no-watch --code-coverage",
+    "serve": "node server",
     "lint": "ng lint",
     "dev:ssr": "ng run angular-starter:serve-ssr",
     "serve:ssr": "node dist/angular-starter/server/main.js",

@@ -6,7 +6,7 @@ describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [
       RouterTestingModule
-    ],
+    ],          
     declarations: [AppComponent]
   }));
 
@@ -16,10 +16,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-modules'`, () => {
+  it(`should have as title 'angular-ssr'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-modules');
+    expect(app.title).toEqual('angular-ssr');
   });
 
 });

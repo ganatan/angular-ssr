@@ -11,7 +11,7 @@ describe('ContactComponent', () => {
     TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
-      ],
+      ],      
       declarations: [ContactComponent]
     });
     fixture = TestBed.createComponent(ContactComponent);

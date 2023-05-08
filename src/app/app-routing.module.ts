@@ -7,26 +7,6 @@ import { NotFoundComponent } from './modules/general/not-found/not-found.compone
 const routes: Routes = [
   { path: '', component: HomeComponent, },
   {
-    path: 'contact',
-    loadChildren: () => import('./modules/general/contact/contact.module')
-      .then(mod => mod.ContactModule)
-  },
-  {
-    path: 'about',
-    loadChildren: () => import('./modules/general/about/about.module')
-      .then(mod => mod.AboutModule)
-  },
-  {
-    path: 'login',
-    loadChildren: () => import('./modules/general/login/login.module')
-      .then(mod => mod.LoginModule)
-  },
-  {
-    path: 'signup',
-    loadChildren: () => import('./modules/general/signup/signup.module')
-      .then(mod => mod.SignupModule)
-  },
-  {
     path: 'bootstrap',
     loadChildren: () => import('./modules/application/example-bootstrap/tutorial.module')
       .then(mod => mod.TutorialModule)
@@ -48,6 +28,26 @@ const routes: Routes = [
   },
 
 
+  {
+    path: 'contact',
+    loadChildren: () => import('./modules/general/contact/contact.module')
+      .then(mod => mod.ContactModule)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('./modules/general/about/about.module')
+      .then(mod => mod.AboutModule)
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./modules/general/login/login.module')
+      .then(mod => mod.LoginModule)
+  },
+  {
+    path: 'signup',
+    loadChildren: () => import('./modules/general/signup/signup.module')
+      .then(mod => mod.SignupModule)
+  },
   { path: '**', component: NotFoundComponent }
 ];
 
