@@ -22,7 +22,6 @@ export class HomeComponent {
   features: Array<Feature>;
 
   constructor() {
-
     this.features =
       [
         {
