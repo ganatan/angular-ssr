@@ -1,6 +1,6 @@
 # Angular 17 Example SSR
 
-> An Angular starter kit featuring [Angular 17.0.6](https://angular.io), [Angular CLI 17.0.6](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 17.0.8](https://angular.io), [Angular CLI 17.0.9](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
