@@ -1,6 +1,6 @@
 # Angular 17 Example SSR
 
-> An Angular starter kit featuring [Angular 17.1.3](https://angular.io), [Angular CLI 17.1.3](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 17.2.3](https://angular.io), [Angular CLI 17.2.2](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -47,8 +47,22 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run start`
 * in your browser [http://localhost:4200](http://localhost:4200) 
 
-### Production 
-* `npm run build`
+
+## Linter
+* `npm run lint`
+
+## Tests
+* `npm run test`
+* `npm run coverage`
+
+### Compilation
+* `npm run build`       ( with SSR)
+
+### Production
+* `npm run serve`
+* in your browser [http://localhost:4000](http://localhost:4000) 
+
+
 
 ## Tests
 * `npm run test`
