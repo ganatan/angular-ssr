@@ -1,4 +1,4 @@
-# Angular 18 Example SSR
+# Angular 18 Example Server Side Rendering
 
 > An Angular starter kit featuring [Angular 18.0.3](https://angular.io), [Angular CLI 18.0.4](https://cli.angular.io/)
 
