@@ -1,6 +1,6 @@
 # Angular 18 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 18.0.3](https://angular.io), [Angular CLI 18.0.4](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 18.0.6](https://angular.io), [Angular CLI 18.0.7](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
