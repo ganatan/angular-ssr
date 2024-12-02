@@ -1,51 +1,54 @@
 import { Routes } from '@angular/router';
 
-import { HomeComponent } from './pages/general/home/home.component';
-import { NotFoundComponent } from './pages/general/not-found/not-found.component';
+import { HomeComponent } from './features/home/home.component';
+import { NotFoundComponent } from './features/not-found/not-found.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, },
 
   {
     path: 'bootstrap',
-    loadChildren: () => import('./pages/application/example-bootstrap/tutorial.module')
-      .then(mod => mod.TutorialModule)
+    loadChildren: () => import(`./features/tutorials/example-bootstrap/tutorial.routes`)
+    .then(routes => routes.routes)
   },
   {
     path: 'components',
-    loadChildren: () => import('./pages/application/example-components/tutorial.module')
-      .then(mod => mod.TutorialModule)
+    loadComponent: () => import('./features/tutorials/example-components/tutorial.component')
+      .then(mod => mod.TutorialComponent)
   },
   {
     path: 'forms',
-    loadChildren: () => import('./pages/application/example-forms/tutorial.module')
-      .then(mod => mod.TutorialModule)
+    loadChildren: () => import(`./features/tutorials/example-forms/tutorial.routes`)
+    .then(routes => routes.routes)
   },
   {
     path: 'services',
-    loadChildren: () => import('./pages/application/example-services/tutorial.module')
-      .then(mod => mod.TutorialModule)
+    loadComponent: () => import('./features/tutorials/example-services/tutorial.component')
+      .then(mod => mod.TutorialComponent)
   },
+
 
   {
     path: 'login',
-    loadChildren: () => import('./pages/general/login/login.module')
-      .then(mod => mod.LoginModule)
+    loadComponent: () => import(`./features/login/login.component`)
+      .then(mod => mod.LoginComponent)
   },
   {
     path: 'signup',
-    loadChildren: () => import('./pages/general/signup/signup.module')
-      .then(mod => mod.SignupModule)
+    loadComponent: () => import(`./features/signup/signup.component`)
+      .then(mod => mod.SignupComponent)
   },
+
   {
     path: 'contact',
-    loadChildren: () => import('./pages/general/contact/contact.module')
-      .then(mod => mod.ContactModule)
+    loadChildren: () => import(`./features/contact/contact.routes`)
+      .then(routes => routes.routes)
   },
 
   {
     path: 'about',
-    loadChildren: () => import('./pages/general/about/about.routes').then(routes => routes.routes)
+    loadChildren: () => import('./features/about/about.routes')
+      .then(routes => routes.routes)
   },
 
   { path: '**', component: NotFoundComponent }
