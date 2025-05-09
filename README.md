@@ -1,6 +1,6 @@
 # Angular 19 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 19.2.9](https://angular.io), [Angular CLI 19.2.11](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 19.2.10](https://angular.io), [Angular CLI 19.2.11](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
