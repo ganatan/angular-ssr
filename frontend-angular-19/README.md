@@ -1,6 +1,6 @@
-# Angular 20 Example Server Side Rendering
+# Angular 19 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 20.0.0](https://angular.io), [Angular CLI 20.0.0](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 19.2.13](https://angular.io), [Angular CLI 19.2.13](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
@@ -8,7 +8,7 @@
 <p align="center">
   <p align="center">
     <a href="https://angular.ganatan.com/">
-      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 20 Example 
+      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 19 Example 
       Application"/>
     </a>
   </p>
@@ -26,7 +26,6 @@ git clone https://gitlab.com/ganatan/angular-ssr.git
 
 # change directory
 cd angular-ssr
-cd frontend-angular
 
 # install the repo with npm
 npm install

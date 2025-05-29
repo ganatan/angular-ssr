@@ -1,0 +1,53 @@
+<div class="container py-5">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center mb-2">
+      <h1 class="h5">
+        <i class="fas fa-laptop fa-lg me-2 text-primary"></i>
+        {{ name }}
+        <i class="fas fa-mobile-alt fa-lg ms-2 text-primary"></i>
+      </h1>
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-danger mb-2">
+      <h2 class="h5">
+        {{ version }}<i class="fab fa-angular fa-lg ms-2"></i>
+      </h2>
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-primary mb-2">
+      <h2 class="h5">
+        {{ bootstrap }}<i class="fab fa-bootstrap fa-lg ms-2"></i>
+      </h2>
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 text-center text-success mb-2">
+      <h2 class="h5">
+        {{ fontawesome }}<i class="fab fa-font-awesome-flag fa-lg ms-2"></i>
+      </h2>
+    </div>
+  </div>
+  <hr>
+  <div class="row mb-2">
+    <div class="col-md-12 text-center mb-4">
+      <h3 class="h5">Features<i class="fas fa-list ms-2"></i></h3>
+    </div>
+  </div>
+  <div class="row pt-2">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-2" *ngFor="let feature of features">
+      <div class="card nga-card bg-light mb-3">
+        <a routerLink="/{{ feature.link }}">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-10 col-xl-10">
+                <h4 class="card-title h5">{{ feature.name }}</h4>
+              </div>
+              <div class="col-2 col-xl-2">
+                <i class="{{ feature.icon }} fa-lg text-primary"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-text">{{ feature.description }}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
