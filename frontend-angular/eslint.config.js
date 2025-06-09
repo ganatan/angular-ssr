@@ -36,6 +36,7 @@ module.exports = tseslint.config(
           suffixes: ["","Component"] 
         }
       ],
+      "@angular-eslint/prefer-inject": "off",
       "no-undefined": "error",
       "no-var": "error",
       "prefer-const": "error",
