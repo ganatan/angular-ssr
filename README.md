@@ -1,6 +1,6 @@
 # Angular 20 Example Server Side Rendering
 
-> An Angular starter kit featuring [Angular 20.0.2](https://angular.io), [Angular CLI 20.0.1](https://cli.angular.io/)
+> An Angular starter kit featuring [Angular 20.0.3](https://angular.io), [Angular CLI 20.0.2](https://cli.angular.io/)
 
 > it's part of a repo series designed to create a Progressive Web App with Angular
 
