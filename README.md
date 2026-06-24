@@ -1,32 +1,51 @@
-# Angular 22 Server Side Rendering
+# Angular 22.0.2 Server Side Rendering
 
-> An Angular starter kit featuring [Angular 20.1.3](https://angular.io), [Angular CLI 20.1.3](https://cli.angular.io/)
 
-> it's part of a repo series designed to create a Progressive Web App with Angular
+<table>
+<tr>
+<td>
+  <a href="https://www.ganatan.com/en">
+    <img src="./img/ganatan-about-github.png" align="right"
+    alt="Ganatan Angular Example Demo" width="140" height="140">
+  </a>
 
-# Web Application Live Demo
+it's part of a repo series designed
+
+to create a **Web Application with Angular 22**
+
+* Featuring [**Angular 22.0.2**](https://github.com/angular/angular/releases) & [**Angular CLI 22.0.3**](https://github.com/angular/angular-cli/releases/)
+
+
+* See the [**Angular Live demo**](#angular-live-demo), Test the repo with [**Quick start**](#angular-quick-start) and for more information Read the step by step [**Tutorial**](#angular-tutorial) or read the [**Getting started**](#angular-getting-started)
+
+---
+
+
+</td>
+</tr>
+</table>
+
+# [Angular Live Demo](#angular-live-demo)
+Here is a working Angular live demo :  https://angular.ganatan.com
+
 <p align="center">
   <p align="center">
     <a href="https://angular.ganatan.com/">
-      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 20 Example 
+      <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 22 Example 
       Application"/>
     </a>
   </p>
 </p>
 
-## Quick start
+
+# [Angular Quick start](#angular-quick-start)
 
 ```bash
-# choose a repo
 # download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-ssr.git
-
-# download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-ssr.git
+git clone https://github.com/ganatan/angular-bootstrap.git
 
 # change directory
 cd angular-ssr
-cd frontend-angular
 
 # install the repo with npm
 npm install
@@ -37,17 +56,30 @@ npm start
 ```
 in your browser go to [http://localhost:4200](http://localhost:4200) 
 
-## Getting Started
+
+# [Angular Tutorial](#angular-quick-start)
+
+Here is a step by step Tutorial :  https://www.ganatan.com/en/tutorials/getting-started-with-angular
+
+<p align="center">
+  <a href="https://www.ganatan.com/en/tutorials/getting-started-with-angular">
+    <img src="img/ganatan-angular-starter-github.png" alt="Demo example"/>
+  </a>
+</p>
+
+# [Angular Getting started](#angular-getting-started)
 
 
-### Installation
+## Installation
 * `npm install` (installing dependencies)
 * `npm outdated` (verifying dependencies)
 
-### Developpement
+## Development
 * `npm run start`
-* in your browser [http://localhost:4200](http://localhost:4200) 
+* in your browser go to [http://localhost:4200](http://localhost:4200) 
 
+## Production 
+* `npm run build`
 
 ## Linter
 * `npm run lint`
@@ -56,47 +88,14 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 * `npm run test`
 * `npm run coverage`
 
-### Compilation
-* `npm run build`       ( with SSR)
 
-### Production
-* `npm run serve`
-* in your browser [http://localhost:4000](http://localhost:4000) 
-
-
-
-## Tests
-* `npm run test`
-
-
-### Prototype Bootstrap 5
-* `change directory` cd ui
-* launch html pages in your browser
-
-
-### Angular & Docker
-
-* `build image`
-* docker build -t angular-starter:1.0.0 .
-
-* `run container`
-* docker run -d -p 4000:4000 angular-starter:1.0.0
-
-* `run container mode bash`
-* docker run -it angular-starter:1.0.0 /bin/bash
-
-
-* in your browser [http://localhost:4000](http://localhost:4000) 
-
-
-### Author
+# [Author](#author)
 * Author  : danny
 
-### Documentation
+## [English Tutorials](#english-tutorials)
+- Installation - https://www.ganatan.com/tutorials/server-side-rendering-with-angular
+- step-by-step Tutorials - https://www.ganatan.com/tutorials/en
 
-English Tutorials
-- Tutorials Step-by-Step - https://www.ganatan.com/tutorials/en
-
-Tutoriels en français
-- Installation - https://www.ganatan.com/tutorials/modules-avec-angular
+## [Tutoriels en français](#french-tutorials)
+- Installation - https://www.ganatan.com/tutorials/server-side-rendering-avec-angular
 - Tutoriels Etape par étape - https://www.ganatan.com/tutorials
