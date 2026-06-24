@@ -1,4 +1,4 @@
-# Angular 20 Example Server Side Rendering
+# Angular 22 Server Side Rendering
 
 > An Angular starter kit featuring [Angular 20.1.3](https://angular.io), [Angular CLI 20.1.3](https://cli.angular.io/)
 
