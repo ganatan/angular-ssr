@@ -93,7 +93,7 @@ Here is a step by step Tutorial :  https://www.ganatan.com/en/tutorials/getting-
 * Author  : danny
 
 ## [English Tutorials](#english-tutorials)
-- Installation - https://www.ganatan.com/tutorials/server-side-rendering-with-angular-universal
+- Installation - https://www.ganatan.com/en/tutorials/server-side-rendering-with-angular-universal
 - step-by-step Tutorials - https://www.ganatan.com/tutorials/en
 
 ## [Tutoriels en français](#french-tutorials)
