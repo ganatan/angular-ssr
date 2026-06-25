@@ -1,5 +1,4 @@
-# Angular 22.0.2 Server Side Rendering
-
+# Angular 22 Server Side Rendering
 
 <table>
 <tr>
@@ -13,7 +12,7 @@ it's part of a repo series designed
 
 to create a **Web Application with Angular 22**
 
-* Featuring [**Angular 22.0.2**](https://github.com/angular/angular/releases) & [**Angular CLI 22.0.3**](https://github.com/angular/angular-cli/releases/)
+* Featuring [**Angular 22.0.2**](https://github.com/angular/angular/releases) & [**Angular CLI 22.0.4**](https://github.com/angular/angular-cli/releases/)
 
 
 * See the [**Angular Live demo**](#angular-live-demo), Test the repo with [**Quick start**](#angular-quick-start) and for more information Read the step by step [**Tutorial**](#angular-tutorial) or read the [**Getting started**](#angular-getting-started)
@@ -42,7 +41,7 @@ Here is a working Angular live demo :  https://angular.ganatan.com
 
 ```bash
 # download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-bootstrap.git
+git clone https://github.com/ganatan/angular-ssr.git
 
 # change directory
 cd angular-ssr
@@ -92,11 +91,12 @@ Here is a step by step Tutorial :  https://www.ganatan.com/en/tutorials/getting-
 # [Author](#author)
 * Author  : danny
 
-## [English Tutorials](#english-tutorials)
+## [Angular English Tutorials](#english-tutorials)
 - Installation - https://www.ganatan.com/en/tutorials/server-side-rendering-with-angular-universal
-- step-by-step Tutorials - https://www.ganatan.com/tutorials/en
+- Tutorials Step by Step - https://www.ganatan.com/en/tutorials
 
-## [Tutoriels en français](#french-tutorials)
+## [Tutoriels Angular en français](#french-tutorials)
+
 - Installation - https://www.ganatan.com/tutorials/server-side-rendering-avec-angular-universal
-
 - Tutoriels Etape par étape - https://www.ganatan.com/tutorials
+
